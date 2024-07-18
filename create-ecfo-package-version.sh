@@ -51,7 +51,7 @@ if [ -z "$SKIP_VALIDATION" ]; then
     read -p "Is it a beta version [Yy|Nn] ? " yn
     case $yn in
         [Yy]* ) echo "This will create a beta version";SKIP_VALIDATION=--skip-validation; break;;
-        [Nn]* ) echo "This will create a release version";SKIP_VALIDATION=--code-coverage;break;;
+        [Nn]* ) echo "This will create a release version";SKIP_VALIDATION=--code-coverage; break;;
         * ) echo "Please answer yes or no.";;
     esac
 fi

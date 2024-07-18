@@ -8,41 +8,57 @@
       "versionDescription": "Extension package for Equinox Corporate+ to add the flow orchestration feature",
       "dependencies": [
         {
-          "package" : "sharinpix_free",
+          "package": "DashboardPal",
+          "subscriberPackageVersionId": "04t3Y000000mfz5QAA"
+        },
+        {
+          "package": "sharinpix_free",
           "subscriberPackageVersionId": "04t1v000002GytoAAC"
         },
         {
-          "package" : "BrightSIGN",
+          "package": "BrightSIGN",
           "subscriberPackageVersionId": "04t08000000NvEpAAK"
         },
         {
-          "package" : "Salesforce Connected Apps",
+          "package": "Salesforce Connected Apps",
           "subscriberPackageVersionId": "04t30000001DUvrAAG"
         },
         {
-          "package" : "List-View-Exporter",
+          "package": "List-View-Exporter",
           "subscriberPackageVersionId": "04t4x000000NXusAAG"
         },
         {
-          "package" : "Lightning Image Slider",
+          "package": "Lightning Image Slider",
           "subscriberPackageVersionId": "04t2J000000Am9nQAC"
         },
         {
-          "package" : "Sortable Datagrid",
+          "package": "Sortable Datagrid",
           "subscriberPackageVersionId": "04t4H000000TJPkQAO"
         },
         {
-          "package" : "Enhanced Files List",
+          "package": "Excel Upload",
+          "subscriberPackageVersionId": "04t5I0000016hqJQAQ"
+        },
+        {
+          "package": "Enhanced Files List",
           "subscriberPackageVersionId": "04t5w000005b2U4AAI"
         },
         {
-          "package" : "SDrive",
+          "package": "SDrive",
           "subscriberPackageVersionId": "04tHn000001ebBAIAY"
         },
         {
-          "package" : "EquinoxCorporate@1.24.0.2"
+          "package": "EquinoxCorporate@1.24.0.2"
         }
       ]
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "default": true,
+      "package": "EquinoxCorporate - Japan specifics",
+      "versionDescription": "All Japan market specifics"
     }
   ],
   "name": "equinox-corporate-flow-orchestration",
@@ -50,7 +66,9 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "61.0",
   "packageAliases": {
+    "EquinoxCorporate": "0Ho4N000000blLjSAI",
     "EquinoxCorporate@1.24.0.2": "04tUz0000000MdFIAU",
-    "EquinoxCorporate - Flow orchestration": "0HoUz00000000PpKAI"
+    "EquinoxCorporate - Flow orchestration": "0HoUz00000000PpKAI",
+    "EquinoxCorporate - Japan specifics": "0HoUz00000000RRKAY"
   }
 }
